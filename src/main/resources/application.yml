@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: zxf-java-json-rpc
+
+logging:
+  level:
+    root: INFO
+    zxf.jsonrpc: DEBUG
+    org.springframework.web: INFO
+    reactor.netty.http.server: INFO
